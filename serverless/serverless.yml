@@ -10,6 +10,12 @@ provider:
     PROJECT_NAME: ${env:PROJECT_NAME}
     ENVIRONMENT_NAME: ${self:provider.stage}
 
+custom:
+  serverless-offline:
+    httpPort: 4000
+    websocketPort: 4001
+    lambdaPort: 4002
+
 plugins:
   - serverless-bundle
   - serverless-offline
