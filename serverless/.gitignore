@@ -13,6 +13,9 @@ lib-cov
 
 # Coverage directory used by tools like istanbul
 coverage
+junit.xml
+
+dump.lsif
 
 # nyc test coverage
 .nyc_output
@@ -32,6 +35,7 @@ jspm_packages
 
 # Optional npm cache directory
 .npm
+.npmrc
 
 # Optional REPL history
 .node_repl_history
@@ -46,7 +50,8 @@ Session.vim
 
 # env
 env.yml
-.env
+*.env
 
-# Jetbrains IDEs
+# IDE
 .idea
+.vscode
