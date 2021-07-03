@@ -1,3 +1,6 @@
+# AWS Lambda CI/CD template with deploy for develop and master branches
+# https://github.com/carlosdnba/templates/blob/master/ci/serverless.gitlab-ci.yml
+
 image: node:14
 stages:
   - deploy
